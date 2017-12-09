@@ -1,6 +1,5 @@
-html, body, main {
-	font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+html, body, main, #root {
+	font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	height: 100%;
     padding-top: 0px;
-	background-color:#34515E;
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
-import { BrowserRouter as Router, Route, Redirect } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Redirect, Switch } from 'react-router-dom';
 import Login from './components/login/';
 import Portal from './components/portal/';
 import { Provider } from 'react-redux';
@@ -11,11 +11,11 @@ export default class App extends React.Component {
         return (
             <Provider store={ store }>
                 <Router>
-                    <div>
-                        <Redirect to="/login" />
+                    <Switch>
                         <Route path="/login" component={ Login } />
                         <Route path="/portal" component={ Portal } />
-                    </div>
+                        <Redirect to="/login" />
+                    </Switch>
                 </Router>
             </Provider>
         )

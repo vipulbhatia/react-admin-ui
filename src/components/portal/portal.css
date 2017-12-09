@@ -1,14 +1,147 @@
+#side-menu-container {
+	background-color: #2f4050;
+	padding: 0px;
+}
+
 .display-table {
-    display: table;
-    height: 100%;
-    width: 100%;
+	display: table;
+	padding: 0px;
+	height: 100%;
+	width: 100%;
 }
+
 .display-table-row {
-    display: table-row;
-    height: 100%;
-    width: 100%;
+	display: table-row;
+	height: 100%;
 }
+
 .display-table-cell {
-    display: table-cell;
-    height: 100%;
+	display: table-cell;
+	float: none;
+	height: 100%;
+}
+
+.valign-top {
+	vertical-align: top;
+}
+
+#nav-header-container {
+	background-color: #fff;
+	border-bottom: 1px solid #e7eaec;
+}
+
+#nav-footer-container {
+	position: absolute;
+	width: 100%;
+	bottom: 0px;
+	background-color: #fff;
+	padding: 10px;
+	font-size: 12px;
+	color: #676a6c;
+}
+
+.navbar-default {
+	background-color: #fff;
+}
+
+.navbar-default .navbar-toggle {
+	border-color: #1ab394;
+	background-color: #1ab394;
+}
+
+.navbar-default .icon-bar {
+	border: 1px white solid;
+}
+
+.navbar-default .navbar-toggle:hover {
+	background-color: #1ab394;
+}
+
+.navbar-default .navbar-toggle:focus {
+	background-color: #1ab394;
+}
+
+#content {
+	margin: 20px 0px 50px 0px;
+	background-color: #fff;
+	border-top: 4px #e7eaec solid;
+}
+
+#content header {
+	border-bottom: 1px #f3f3f4 solid;
+	padding: 10px 20px;
+}
+
+.page_title {
+	font-size: 14px;
+	font-weight: bold;
+	margin: 0px;
+}
+
+.content-inner {
+	padding: 20px;
+}
+
+.search-field {
+	height: 31px;
+	border: 1px #e7eaec solid;
+}
+
+.search-row {
+	margin-bottom: 30px;
+}
+
+.btn-primary {
+	background-color: #1ab394;
+	border: 1px solid #1ab394;
+}
+
+.btn-primary:hover {
+	background-color: #1cc394;
+	border: 1px solid #1cc394;
+}
+
+.btn-primary:focus {
+	background-color: #1cc394;
+	border: 1px solid #1cc394;
+}
+
+.go {
+	height: 31px;
+}
+
+.label-success {
+	background-color: #1ab394;
+}
+
+.label-lg {
+	padding: 10px 16px;
+	font-size: 18px;
+	line-height: 1.33;
+	border-radius: 6px;
+}
+
+.label-sm {
+	padding: 5px 10px;
+	font-size: 12px;
+	line-height: 1.5;
+	border-radius: 3px;
+}
+
+.label-xs {
+	padding: 1px 5px;
+	font-size: 12px;
+	line-height: 1.5;
+	border-radius: 3px;
+}
+
+.pagination a {
+	color: #1ab394 !important;
+}
+
+.form-inline {
+    padding:10px;
+}
+.form-inline > * {
+    margin:15px 3px !important;
 }
