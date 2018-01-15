@@ -1,3 +1,8 @@
-export const login = () => ({
-    type: 'USER_LOGIN'
+export const login = (jwt) => ({
+    type: 'USER_LOGIN',
+    payload: jwt
 });
+
+export const logout = () => ({
+    type: 'USER_LOGOUT'
+})

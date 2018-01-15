@@ -1,7 +1,7 @@
 #side-menu h1 {
-	color: #1f3647;
+	color: #c8c8c8;
 	text-align: center;
-	margin: 10px 0px;
+	padding: 25px 20px;
 	font-size: 25px;
 }
 
@@ -14,25 +14,25 @@
 #side-menu a {
 	padding: 12px 20px;
 	text-decoration: none;
-	color: #9fb1c2;
-	font-weight: bold;
-	font-size: 13px;
+	color: #FFFFFF;
+	font-weight: 400;
+	font-size: 14px;
 	display: block;
 }
 
 #side-menu .glyphicon {
-	margin-right: 6px;
+	margin-right: 16px;
 }
 
-#side-menu a:hover {
-	background-color: #293846;
+#side-menu li:not(:first-child):hover {
+	background-color: #c2185b;
 	display: block;
 	color: #fff;
 }
 
 #side-menu .active a {
 	color: #fff;
-	background-color: #293846;
+	background-color: #c2185b;
 }
 
 #side-menu .settings-btn {
@@ -48,27 +48,26 @@
 }
 
 #side-menu .collapseable li {
-	padding-left: 20px;
-	padding-top: 5px;
+	/*border-left: 1px solid #00b8ce;
+	padding-left: 56px;
+	padding-top: 5px;*/
 }
 
 #side-menu .collapseable a {
+	border-left: 1px solid #00b8ce;
+	background-color: #0f0f0f;
 	color: #9fb1c2;
 	font-size: 12px;
-	padding: 0px 10px;
+	padding: 12px 56px;
 	text-decoration: none;
 	display: block
 }
 
 #side-menu .collapseable a:hover {
 	color: #fff;
+	background-color: #1D1D1D;
 }
 
 #side-menu .collapseable {
-	border-left: 4px solid #1ab394;
-	background-color: #293846;
-}
-
-#side-menu .link > ul > li {
-	padding-bottom: 10px;
+	background-color: #0f0f0f;
 }

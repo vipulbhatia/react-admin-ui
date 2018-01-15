@@ -1,4 +1,5 @@
 import React from 'react';
+import LoginForm from '../form';
 
 export default class Home extends React.Component {
 	constructor(props) {
@@ -9,9 +10,13 @@ export default class Home extends React.Component {
 		this.props.eventEmitter.emit('navigateScreen', 'HOME');
 	}
 
+	handleSubmit(v) {
+		console.log(v);
+	}
+
 	render() {
 		return (
-			<h1>Home!!!</h1>
+			<LoginForm onSubmit={this.handleSubmit} />
 		)
 	}
 }
